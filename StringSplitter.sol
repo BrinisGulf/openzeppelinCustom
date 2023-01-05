@@ -1,6 +1,21 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 //import "https://github.com/BrinisGulf/openzeppelinCustom/blob/main/StringSplitter.sol";
+/*
+contract Planets is  Ownable, ERC721URIStorage 
+{
+    
+     using Splitter for string;
+     .
+     .
+     .
+function splitt(string memory source) public pure returns (string memory ) 
+    {
+        string[] memory split = source.split("#");
+        return split[0];
+    }
+}
+    */
 /**
  * Strings Library
  * 
