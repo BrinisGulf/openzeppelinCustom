@@ -1,3 +1,4 @@
+//SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 /**
@@ -172,20 +173,7 @@ library Strings {
         return string(_tmpBytes);
     }
 
-    /**
-     * String Split (Very high gas cost)
-     *
-     * Splits a string into an array of strings based off the delimiter value.
-     * Please note this can be quite a gas expensive function due to the use of
-     * storage so only use if really required.
-     *
-     * @param _base When being used for a data type this is the extended object
-     *               otherwise this is the string value to be split.
-     * @param _value The delimiter to split the string on which must be a single
-     *               character
-     * @return string[] An array of values split based off the delimiter, but
-     *                  do not container the delimiter.
-     */
+   
     function split(string memory _base, string memory _value)
         internal
         pure
